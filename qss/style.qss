@@ -1,0 +1,49 @@
+QWidget, QFrame, QDialog {
+    background: #212529;
+    color: #ffffff;
+}
+
+QLabel {
+    color: white;
+}
+
+QPushButton:hover {
+    background: #212529;
+    border: 1px solid #343a40;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+QPushButton {
+    background: #343a40;
+    border: 1px solid #343a40;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+QSpinBox, QDoubleSpinBox, QCheckBox, QLineEdit {
+    background: #343a40;
+}
+
+QTableWidget {
+    border: none;
+}
+
+QScrollArea {
+    border: 1px solid #343a40;
+    border-radius: 2px;
+}
+
+#table {
+    background: #343a40;
+    border-radius: 2px;
+}
+
+#frame {
+    border: 1px solid #343a40;
+    border-radius: 2px;
+}
+
+QComboBox {
+    width: 100px;
+}
